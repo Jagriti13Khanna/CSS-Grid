@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS GRIDS</title>
+	<style>
+		.wrapper{
+			display:grid;
+			grid-template-columns: 40% 30% 30%;
+			/*
+			grid-column-gap: 1em;
+			grid-row-gap: 1em;
+			*/
+			grid-gap: 1em;
+		}
+        
+        .wrapper > div{
+        	background:#eee;
+        	padding: 1em;
+        }
+
+		.wrapper > div:nth-child(odd){
+			background:#ddd;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div>
+			Lorem Aliquam elementum erat quis bibendum iaculis. Pellentesque in nisl pellentesque, dictum urna non, sodales ex. Maecenas hendrerit neque imperdiet mi aliquam ullamcorper. Aenean feugiat interdum convallis. Nullam a efficitur nulla, pretium semper enim. Etiam laoreet venenatis augue, in ultricies tellus convallis semper. In convallis pretium ipsum, vitae sodales erat condimentum sit amet. Nullam at erat at turpis condimentum ultricies a sed ligula. Nulla facilisi. Morbi a hendrerit mi. Suspendisse fringilla enim eget metus interdum laoreet.
+		</div>
+		<div>
+			Nullam a efficitur nulla, pretium semper enim. Etiam laoreet venenatis augue, in ultricies tellus convallis semper. In convallis pretium ipsum, vitae sodales erat condimentum sit amet. Nullam at erat at turpis condimentum ultricies a sed ligula. Nulla facilisi. Morbi a hendrerit mi. Suspendisse fringilla enim eget metus interdum laoreet.
+		</div>
+		<div>
+			Lorem Aliquam elementum erat quis bibendum iaculis. Pellentesque in nisl pellentesque, dictum urna non, sodales ex. Maecenas hendrerit neque imperdiet mi aliquam ullamcorper. Aenean feugiat interdum convallis. Nullam a efficitur nulla, pretium semper enim. Etiam laoreet venenatis augue, in ultricies tellus convallis semper. In convallis pretium ipsum, vitae sodales erat condimentum sit amet. Nullam at erat at turpis condimentum ultricies a sed ligula. Nulla facilisi. Morbi a hendrerit mi. Suspendisse fringilla enim eget metus interdum laoreet.
+		</div>
+		<div>
+			 Nullam at erat at turpis condimentum ultricies a sed ligula. Nulla facilisi. Morbi a hendrerit mi. Suspendisse fringilla enim eget metus interdum laoreet.
+		</div>
+	</div>
+
+</body>
+</html>
